@@ -1,0 +1,14 @@
+uuid: 0b17ee30-85cb-4894-a817-2ba7ee6f5e32
+name: testd8law
+mail: leoman730@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
