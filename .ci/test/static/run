@@ -19,12 +19,11 @@ composer -n unit-test
 # This is necessary so that third-party
 # dependencies are not tested
 cp web/core/includes/bootstrap.inc .
+
 git clean -fdX web
 
 mkdir -p web/core/includes
 mv bootstrap.inc web/core/includes/
-
-git checkout web/core/includes
 
 # Lint php code for syntax errors
 composer -n lint
